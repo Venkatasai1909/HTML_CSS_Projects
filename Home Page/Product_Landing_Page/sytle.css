@@ -1,0 +1,87 @@
+*{
+    margin : 0;
+    padding : 0;
+    flex-wrap: wrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20px;
+    width: 100%;
+    height:50px;
+    background-color:#c0bacc;
+    padding-left: 20px;
+    position: fixed;
+    
+}
+
+#phoneImage {
+    height: 800px;
+    background-image: url("images/phoneImage.png");
+    background-size: cover;
+    display: flex;
+    color: blueviolet;
+    gap:10px;
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 380px;
+    padding-top: 200px;
+    font-size: 25px;
+}
+
+.phoneVedio{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#specs{
+    padding-top: 30px;
+    background-color: beige;
+    height: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content:center;
+    align-items: center;
+}
+
+#specs h2{
+    text-align: center;
+}
+
+#FAQs{
+    height:450px;
+    padding-top: 30px;
+    background-color: beige;
+}
+
+#FAQs h2{
+    text-align: center;
+}
+
+#About{
+    display: flex;
+    background-color: beige;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding-top:30px;
+    height: 300px;
+}
+
+.copyright{
+   text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+

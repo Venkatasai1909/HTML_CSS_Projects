@@ -1,0 +1,50 @@
+.main{
+    background-color:ghostwhite;
+    margin-top: 20px;
+   padding: 20px;
+    width:1750px;
+    height:1250px;
+    color: white;
+    margin : 20px 10px 10px 10px;
+}
+
+.header {
+    height: 580px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:grey;
+}
+
+.header h1 {
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header span {
+    font-family: cursive;
+}
+
+.header img {
+    height: 350px;
+    width: 350px;
+}
+
+.section {
+    background-color:darkslategrey;
+    height: 550px;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.footer {
+    height: 100px;
+    text-align: center;
+    background-color:black;
+}
+
+.footer a{
+    text-decoration: none;
+}
+ 

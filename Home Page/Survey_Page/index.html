@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "style.css" rel = "stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class = "main">
+        <form action = "">
+        <header class = "header">
+            <h2><u>Course Registration Form</u></h2>
+            </header>
+            <main class = "section">
+                <div class="sec">
+                    <label>Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type = text placeholder=" Enter Your name" required><br><br>
+                    <label>Father Name :</label>&nbsp;
+                    <input  type = text placeholder=" Enter Your father name" required><br><br>
+                    <label>Mother Name :</label>&nbsp;
+                    <input  type = text placeholder=" Enter Your mother name" required><br><br>
+                    <label>Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type = email placeholder=" Enter your Email" required><br><br>
+                    <label>Phone No.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type = text pattern="[0-9]{10}" title = "Enter 10 digit Mobile Number" placeholder=" Enter your mobile number" required><br><br>
+                </div>
+                    <label>Current role :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option>Select current role</option>
+                        <option value = "student">Student</option>
+                        <option value = "Fresher">Fresher</option>
+                        <option value = "0to2year">0-2 year experience</option>
+                        <option value = "2to4year">2-4 year experience</option>
+                        <option value=">5 year">>5 year experience</option>
+                    </select><br><br>
+                    <p><u>Gender</u></p>
+                    <table>
+                        <tr>
+                        <td><input type = "radio" name = "gender" value="Male"></td>
+                            <td><label>Male</label></td>
+                            <td><input type = "radio" name = "gender" value="Female"></td>
+                            <td><label>Female</label></td>
+                            <td><input type = "radio" name = "gender" value="Transgender"></td>
+                            <td><label>Don't specify</label></td>
+                        </tr>
+                    </table><br>
+                    <label>Qualification : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option>Select your highest Qualification</option>
+                        <option>B.E/B.Tech</option>
+                        <option>BCA/BSE</option>
+                        <option>M.Tech</option>
+                        <option>MCA/MSE</option>
+                    </select>
+                    <p><u>Course Selection</u></p>
+                    <input type = checkbox>Core Java<br>
+                    <input type = checkbox>Adv. Java <br>
+                    <input type = checkbox>Oracle<br>
+                    <input type = checkbox>HTML, CSS, JavaScript<br>
+                    <input type = checkbox>Spring, SpringBoot<br>
+                    <input type = checkbox>Angular<br>
+                    <input type = checkbox>React.JS<br>
+                    <input type = checkbox>Devops<br>
+                    <input type = checkbox>Selenium<br>
+                    <input type = checkbox>Azure<br>
+                    <input type = checkbox>AWS<br>
+                <p>About you?</p>
+                <textarea placeholder = "Write your text here"></textarea><br><br>
+                <input type = submit id = "submit">
+            </main>
+        </form>
+    </div>
+</body>
+</html>
